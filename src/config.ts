@@ -10,7 +10,6 @@ import type {
 
 export const identity: Identity = {
   name: "Laura Castrillón",
-  logo: "/logo.webp"
 };
 
 export const navBarLinks: NavBarLink[] = [
@@ -30,7 +29,7 @@ export const navBarLinks: NavBarLink[] = [
 
 export const socialLinks: SocialLink[] = [
   {
-    url: "https://github.com/TimWitzdam",
+    url: "https://github.com/LauraCastrillonMp",
     icon: "mdi:github",
     external: true,
   },
@@ -46,8 +45,7 @@ export const homePageContent: HomePageContent = {
   seo: {
     title: "Laura Castrillón",
     description:
-      "Full time student and software developer from Colombia who loves building cool things using code.",
-    image: identity.logo,
+      "Full time student and software developer from Colombia who loves building cool things using code."
   },
   role: "Student & Software Developer",
   description:
@@ -70,8 +68,7 @@ export const aboutPageContent: AboutPageContent = {
   seo: {
     title: "About | Laura Castrillón",
     description:
-      "Full time student from Colombia who loves building cool things using code.",
-    image: identity.logo,
+      "Full time student from Colombia who loves building cool things using code."
   },
   subtitle: "Some information about myself",
   about: {
@@ -96,8 +93,7 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
         title: "Software Developer",
         company: {
           name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          url: "https://github.com/LauraCastrillonMp",
         },
         date: "2021 - Present",
       },
@@ -105,8 +101,7 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
         title: "Software Developer",
         company: {
           name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          url: "https://github.com/LauraCastrillonMp",
         },
         date: "2019 - 2021",
       },
@@ -122,8 +117,7 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
 export const projectsPageContent: ProjectPageContent = {
   seo: {
     title: "Projects | Laura Castrillón",
-    description: "Check out what I've been working on.",
-    image: identity.logo,
+    description: "Check out what I've been working on."
   },
   subtitle: "Check out what I've been working on.",
   projects: [
@@ -163,7 +157,7 @@ export const blogPageContent: BlogPageContent = {
   seo: {
     title: "Blog | Laura Castrillón",
     description: "Thoughts, stories and ideas.",
-    image: identity.logo,
+    image: "/blog-image.png"
   },
   subtitle: "Thoughts, stories and ideas.",
 };

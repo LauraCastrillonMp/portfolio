@@ -12,13 +12,12 @@ export type SocialLink = {
 
 export type Identity = {
   name: string;
-  logo: string;
 };
 
 export type SEOInfo = {
   title: string;
+  image?: string;
   description: string;
-  image: string;
 };
 
 export type HomePageContent = {
@@ -37,7 +36,6 @@ export type ResumeItem = {
   title: string;
   company: {
     name: string;
-    image: string;
     url: string;
   };
   date: string;
@@ -79,9 +77,4 @@ export type ProjectPageContent = {
   seo: SEOInfo;
   subtitle: string;
   projects: Project[];
-};
-
-export type BlogPageContent = {
-  seo: SEOInfo;
-  subtitle: string;
 };
