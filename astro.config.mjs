@@ -21,4 +21,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+
+  site: 'https://lauracastrillonmp.github.io',
+  base: '/portfolio',
 });
