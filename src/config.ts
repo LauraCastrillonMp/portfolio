@@ -4,7 +4,6 @@ import type {
   Identity,
   AboutPageContent,
   ProjectPageContent,
-  BlogPageContent,
   HomePageContent,
 } from "./types/config";
 
@@ -150,14 +149,4 @@ export const projectsPageContent: ProjectPageContent = {
       url: "https://github.com/LauraCastrillonMp/seiiis",
     },
   ],
-};
-
-// Blog (/blog)
-export const blogPageContent: BlogPageContent = {
-  seo: {
-    title: "Blog | Laura Castrillón",
-    description: "Thoughts, stories and ideas.",
-    image: "/blog-image.png"
-  },
-  subtitle: "Thoughts, stories and ideas.",
 };
