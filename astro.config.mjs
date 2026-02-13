@@ -23,5 +23,4 @@ export default defineConfig({
   },
 
   site: 'https://lauracastrillonmp.github.io',
-  base: '/portfolio',
 });
